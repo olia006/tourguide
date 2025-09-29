@@ -291,8 +291,7 @@
 .hero-image-section {
   padding: var(--spacing-8) 0 var(--spacing-12) 0;
   background: var(--color-dark-bg);
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -369,7 +368,7 @@
 }
 
 .chile-info-content.expanded {
-  max-height: 800px;
+  max-height: 1200px;
   opacity: 1;
   padding: var(--spacing-12) 0;
 }
@@ -421,8 +420,7 @@
 
 /* Info Section */
 .info-section {
-  padding: var(--spacing-16) 0;
-  margin-top: var(--spacing-4);
+  padding: var(--spacing-12) 0;
 }
 
 .info-grid {
@@ -1233,12 +1231,15 @@
   
   .hero-image-section {
     padding: var(--spacing-6) 0 var(--spacing-8) 0;
-    margin-bottom: var(--spacing-4);
   }
   
-  .info-section {
-    padding: var(--spacing-12) 0;
-    margin-top: var(--spacing-6);
+  .hero-image {
+    max-height: 60vh;
+    object-fit: cover;
+  }
+  
+  .chile-info-content.expanded {
+    max-height: 1500px;
   }
   
   .expandable-card-cover .image-skeleton {
