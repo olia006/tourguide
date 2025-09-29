@@ -13,11 +13,6 @@ const CopyProtection: React.FC = () => {
       return false;
     };
 
-    const preventSaveAs = (e: Event) => {
-      e.preventDefault();
-      return false;
-    };
-
     // Disable image context menu
     const images = document.querySelectorAll('img');
     images.forEach(img => {

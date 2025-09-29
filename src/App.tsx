@@ -57,9 +57,9 @@ function App() {
 
     // Disable text selection
     document.body.style.userSelect = 'none';
-    document.body.style.webkitUserSelect = 'none';
-    document.body.style.mozUserSelect = 'none';
-    document.body.style.msUserSelect = 'none';
+    (document.body.style as any).webkitUserSelect = 'none';
+    (document.body.style as any).mozUserSelect = 'none';
+    (document.body.style as any).msUserSelect = 'none';
 
     // Cleanup
     return () => {
