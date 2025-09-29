@@ -467,10 +467,10 @@ const comunasData: ComunaData[] = [
   {
     id: 'cerrillos',
     name: { en: 'Cerrillos', ru: 'Серрильос' },
-    riskLevel: 'low',
+    riskLevel: 'medium',
     description: {
-      en: 'Small comuna with airport and mixed residential areas.',
-      ru: 'Небольшая коммуна с аэропортом и смешанными жилыми районами.'
+      en: 'Small comuna with airport and mixed residential areas. Exercise caution during nighttime.',
+      ru: 'Небольшая коммуна с аэропортом и смешанными жилыми районами. Соблюдайте осторожность в ночное время.'
     },
     risks: {
       en: ['Variable safety', 'Airport area can attract crime'],
@@ -943,10 +943,10 @@ const comunasData: ComunaData[] = [
   {
     id: 'huechuraba',
     name: { en: 'Huechuraba', ru: 'Уэчураба' },
-    riskLevel: 'safest',
+    riskLevel: 'medium',
     description: {
-      en: 'Lower part less safe, upper residential part safer. Business district with mixed areas.',
-      ru: 'Нижняя часть менее безопасна, верхняя жилая часть безопаснее. Деловой район со смешанными зонами.'
+      en: 'Lower part less safe, upper residential part safer. Business district with mixed areas. Day time visits recommended.',
+      ru: 'Нижняя часть менее безопасна, верхняя жилая часть безопаснее. Деловой район со смешанными зонами. Рекомендуются дневные посещения.'
     },
     risks: {
       en: ['Variable safety by area', 'Some neighborhoods less safe'],
