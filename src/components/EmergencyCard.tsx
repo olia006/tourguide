@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Shield, Ambulance, Flame } from 'lucide-react';
+import { Shield, Ambulance, Flame } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const EmergencyCard: React.FC = () => {
@@ -17,10 +17,6 @@ const EmergencyCard: React.FC = () => {
     {
       icon: Flame,
       service: t('home.emergency.fire')
-    },
-    {
-      icon: Phone,
-      service: t('home.emergency.touristPolice')
     }
   ];
 
