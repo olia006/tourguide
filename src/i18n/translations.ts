@@ -70,7 +70,8 @@ export const translations = {
         zeroTolerance: 'Zero tolerance for both drinking and speeding — fines are strict and heavily enforced.',
         tollRoads: 'Many highways are toll roads (autopistas) — pay with cash or TAG.',
         gasStations: 'Gas stations (bencineras) are full service; small tips appreciated.',
-        winterAndes: 'Winter Andes travel: snow chains may be required; police may check.'
+        winterAndes: 'Winter Andes travel: snow chains may be required; police may check.',
+        emergencyInfo: 'Emergency Info'
       },
       emergency: {
         police: 'Police: 133',
@@ -1538,7 +1539,8 @@ export const translations = {
         zeroTolerance: 'Нулевая терпимость к алкоголю и превышению скорости — штрафы строгие и жёстко контролируются.',
         tollRoads: 'Многие автомагистрали платные (автописты) — оплата наличными или TAG.',
         gasStations: 'Заправки (бенсинерас) с полным обслуживанием; небольшие чаевые приветствуются.',
-        winterAndes: 'Зимние поездки в Анды: могут потребоваться цепи противоскольжения; полиция может проверить.'
+        winterAndes: 'Зимние поездки в Анды: могут потребоваться цепи противоскольжения; полиция может проверить.',
+        emergencyInfo: 'Экстренная информация'
       },
       emergency: {
         police: 'Полиция: 133',
