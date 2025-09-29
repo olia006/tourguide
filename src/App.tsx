@@ -85,7 +85,7 @@ function App() {
             <div className="header-content">
               <div className="logo">
                 <Link to="/" className="logo-link">
-                  <img src="/logo.png" alt="Chile Guide" className="logo-image" />
+                  <img src="/assets/logo.png" alt="Chile Guide" className="logo-image" />
                 </Link>
               </div>
               <div className="header-actions">
@@ -96,7 +96,7 @@ function App() {
                   className="rental-button"
                   title="Rent a Car"
                 >
-                  <img src="/carbutton.png" alt="Rent a Car" className="rental-icon" />
+                  <img src="/assets/carbutton.png" alt="Rent a Car" className="rental-icon" />
                 </a>
                 <LanguageSwitcher />
               </div>
