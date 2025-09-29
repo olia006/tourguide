@@ -18,7 +18,7 @@ interface SectionPreview {
 }
 
 const Home: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, currentLanguage } = useLanguage();
   const [isChileInfoExpanded, setIsChileInfoExpanded] = useState(false);
 
   const sections: SectionPreview[] = [
@@ -98,7 +98,7 @@ const Home: React.FC = () => {
             
             <div className="hero-actions">
               <a 
-                href="https://rentcarchile.com/ru/pages/preguntas-frecuentes" 
+                href={`https://rentcarchile.com/${currentLanguage}/pages/preguntas-frecuentes`}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-pill btn-pill-outline"
@@ -106,7 +106,7 @@ const Home: React.FC = () => {
                 {t('home.cta.learnMore')}
               </a>
               <a 
-                href="https://rentcarchile.com/ru/pages/reservar" 
+                href={`https://rentcarchile.com/${currentLanguage}/pages/reservar`}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn-pill btn-pill-primary"

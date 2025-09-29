@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useEffect } from 'react';
-import { LanguageProvider } from './contexts/LanguageContext';
+import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 import BottomNavigation from './components/BottomNavigation';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import ScrollToTop from './components/ScrollToTop';
@@ -15,6 +15,36 @@ import Emergency from './pages/Emergency';
 import CopyProtection from './components/CopyProtection';
 import './styles/globals.css';
 import './styles/components.css';
+
+const AppHeader: React.FC = () => {
+  const { currentLanguage } = useLanguage();
+  
+  return (
+    <header className="app-header">
+      <div className="container">
+        <div className="header-content">
+          <div className="logo">
+            <Link to="/" className="logo-link">
+              <img src="/assets/logo.png" alt="Chile Guide" className="logo-image" />
+            </Link>
+          </div>
+          <div className="header-actions">
+            <a 
+              href={`https://rentcarchile.com/${currentLanguage}/pages/reservar`}
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="rental-button"
+              title="Rent a Car"
+            >
+              <img src="/assets/carbutton.png" alt="Rent a Car" className="rental-icon" />
+            </a>
+            <LanguageSwitcher />
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
 
 function App() {
   useEffect(() => {
@@ -80,29 +110,7 @@ function App() {
         <ScrollToTop />
         <div className="app">
         {/* Header with Language Switcher */}
-        <header className="app-header">
-          <div className="container">
-            <div className="header-content">
-              <div className="logo">
-                <Link to="/" className="logo-link">
-                  <img src="/assets/logo.png" alt="Chile Guide" className="logo-image" />
-                </Link>
-              </div>
-              <div className="header-actions">
-                <a 
-                  href="https://rentcarchile.com/ru/pages/reservar" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="rental-button"
-                  title="Rent a Car"
-                >
-                  <img src="/assets/carbutton.png" alt="Rent a Car" className="rental-icon" />
-                </a>
-                <LanguageSwitcher />
-              </div>
-            </div>
-          </div>
-        </header>
+        <AppHeader />
 
         {/* Main Content */}
         <main className="app-main">
