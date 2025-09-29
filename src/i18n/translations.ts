@@ -571,7 +571,7 @@ export const translations = {
               providers: {
                 asistencia: {
                   name: 'Asistencia en Ruta V Región',
-                  services: '24/7 towing & roadside help',
+                  services: 'Towing & roadside help',
                   website: 'asistenciaenruta.cl'
                 },
                 jofre: {
@@ -618,11 +618,6 @@ export const translations = {
                   name: 'Grúas del Sur (Temuco)',
                   services: 'Towing & assistance',
                   website: 'gruasdelsur.cl'
-                },
-                puertomontt: {
-                  name: 'Grúas Puerto Montt',
-                  services: 'Emergency 24/7 towing',
-                  website: 'gruaspuertomontt.cl'
                 }
               }
             },
@@ -2243,7 +2238,7 @@ export const translations = {
               providers: {
                 asistencia: {
                   name: 'Asistencia en Ruta V Región',
-                  services: 'Круглосуточная эвакуация и помощь на дорогах',
+                  services: 'Эвакуация и помощь на дорогах',
                   website: 'asistenciaenruta.cl'
                 },
                 jofre: {
@@ -2290,11 +2285,6 @@ export const translations = {
                   name: 'Grúas del Sur (Темуко)',
                   services: 'Эвакуация и помощь',
                   website: 'gruasdelsur.cl'
-                },
-                puertomontt: {
-                  name: 'Grúas Puerto Montt',
-                  services: 'Экстренная круглосуточная эвакуация',
-                  website: 'gruaspuertomontt.cl'
                 }
               }
             },

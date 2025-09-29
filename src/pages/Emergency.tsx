@@ -377,16 +377,6 @@ const Emergency: React.FC = () => {
                               </a>
                             </div>
                           </div>
-                          <div className="regional-provider">
-                            <h5>{t('emergency.comprehensive.roadAssistance.regionalProviders.south.providers.puertomontt.name')}</h5>
-                            <p className="provider-services">{t('emergency.comprehensive.roadAssistance.regionalProviders.south.providers.puertomontt.services')}</p>
-                            <div className="contact-info">
-                              <Globe size={16} strokeWidth={1} />
-                              <a href={`https://${t('emergency.comprehensive.roadAssistance.regionalProviders.south.providers.puertomontt.website')}`} target="_blank" rel="noopener noreferrer">
-                                {t('emergency.comprehensive.roadAssistance.regionalProviders.biobio.providers.concepcion.website')}
-                              </a>
-                            </div>
-                          </div>
                         </div>
                       </div>
 
