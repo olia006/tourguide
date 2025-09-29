@@ -289,11 +289,12 @@
 
 /* Hero Image Section */
 .hero-image-section {
-  padding: var(--spacing-8) 0 var(--spacing-8) 0;
+  padding: var(--spacing-8) 0 var(--spacing-12) 0;
   background: var(--color-dark-bg);
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   position: relative;
+  overflow: hidden;
 }
 
 .hero-image {
@@ -420,7 +421,8 @@
 
 /* Info Section */
 .info-section {
-  padding: var(--spacing-12) 0;
+  padding: var(--spacing-16) 0;
+  margin-top: var(--spacing-4);
 }
 
 .info-grid {
@@ -1223,10 +1225,20 @@
   height: 400px;
 }
 
-/* Responsive adjustments */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
   .hero-image-section .image-skeleton {
     min-height: 200px;
+  }
+  
+  .hero-image-section {
+    padding: var(--spacing-6) 0 var(--spacing-8) 0;
+    margin-bottom: var(--spacing-4);
+  }
+  
+  .info-section {
+    padding: var(--spacing-12) 0;
+    margin-top: var(--spacing-6);
   }
   
   .expandable-card-cover .image-skeleton {
