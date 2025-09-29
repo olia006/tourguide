@@ -289,7 +289,7 @@
 
 /* Hero Image Section */
 .hero-image-section {
-  padding: var(--spacing-8) 0 0 0;
+  padding: var(--spacing-8) 0 var(--spacing-8) 0;
   background: var(--color-dark-bg);
   width: 100vw;
   margin-left: calc(-50vw + 50%);
