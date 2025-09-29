@@ -19,6 +19,8 @@ class MapboxConfig {
       'localhost',
       '127.0.0.1',
       'tourguide.vercel.app',
+      'rentcarchile.club',
+      'www.rentcarchile.club',
       // Add your production domains here
     ];
   }
